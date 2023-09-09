@@ -4,8 +4,7 @@ int main(void)
 {
   do
   {
-    printf("enter intial population : ");
-    int ip = get_int;
+    int ip = get_int("enter intial population : ");
   }
   while(ip<9);
   // final population needed
