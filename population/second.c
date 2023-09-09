@@ -26,7 +26,9 @@ int main(void)
    int born = ip/3;
    int dead = ip/4;
    inp = born - dead;
+   ip =+ inp;
    years++;
 
   }
+  printf("years : %i \n" ,years);
 }
