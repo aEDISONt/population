@@ -2,5 +2,9 @@
 #include<stdio.h>
 int main(void)
 {
-  
+  do
+  {
+    int ip = get_int();
+    
+  }
 }
