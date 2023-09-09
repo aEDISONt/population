@@ -5,14 +5,14 @@ int main(void)
   do
   {
     printf("enter intial population : ");
-    int ip = get_int();
+    int ip = get_int;
   }
   while(ip<9);
   // final population needed
   do
   {
     printf("enter final population : ");
-    int fp = get_int();
+    int fp = get_int;
   }
 
 
