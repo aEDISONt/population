@@ -18,7 +18,7 @@ int main(void)
   while(fp>ip);
 
   int inp;
-  int years;
+  int years = 0;
   //calculation of yrs needed for final population
   while(ip<fp)
   {
