@@ -14,15 +14,19 @@ int main(void)
     printf("enter final population : ");
     int fp = get_int();
   }
-  int years;
+
 
   while(fp>ip);
 
+  int inp;
+  int years;
   //calculation of yrs needed for final population
   while(ip<fp)
   {
    int born = ip/3;
    int dead = ip/4;
-   int in_e_yr = born - dead;
+   inp = born - dead;
+   years++;
+
   }
 }
