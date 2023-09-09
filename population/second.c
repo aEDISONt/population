@@ -13,9 +13,7 @@ int main(void)
   {
     fp = get_int("enter final population : ");
   }
-
-
-  while(fp>ip);
+  while(fp<ip);
 
   int inp;
   int years = 0;
