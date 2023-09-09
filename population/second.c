@@ -2,16 +2,16 @@
 #include<stdio.h>
 int main(void)
 {
+  int ip,fp;
   do
   {
-    int ip = get_int("enter intial population : ");
+     ip = get_int("enter intial population : ");
   }
   while(ip<9);
   // final population needed
   do
   {
-    printf("enter final population : ");
-    int fp = get_int;
+    fp = get_int("enter final population : ");
   }
 
 
@@ -25,7 +25,7 @@ int main(void)
    int born = ip/3;
    int dead = ip/4;
    inp = born - dead;
-   ip =+ inp;
+   ip += inp;
    years++;
 
   }
